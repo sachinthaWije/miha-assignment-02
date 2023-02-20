@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body>
+    <div class="log-out">
+        <button type="button" onclick="logout();">Sign out</button>
+    </div>>
+    <div class="login-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/3696/3696433.png" class="avatar">
+        <h1>Create New User</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" id="username" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" id="password" name="password" placeholder="Enter Password">
+            <input type="button" name="submit" style="background: #5ecaf2;" value="Create User" onclick="createUser();">
+            <span style="color: #fff;">You have an account, Click here to
+            <a href="login.html">Sign In.</a></span>
+        </form>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
